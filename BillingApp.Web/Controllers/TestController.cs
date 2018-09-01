@@ -9,7 +9,7 @@ namespace BillingApp.Web.Controllers
     public class TestController : Controller
     {
         // GET: Test
-        public ActionResult Test()
+        public ActionResult Index()
         {
             return View();
         }

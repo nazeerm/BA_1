@@ -10,6 +10,6 @@ namespace BillingApp.Service.Interfaces
 {
     public interface ISupplierServices
     {
-        SupplierListOutModel GetSupplierList(SupplierListInModel paramIn);
+        List<SupplierListOutModel> GetSupplierList(SupplierListInModel paramIn);
     }
 }

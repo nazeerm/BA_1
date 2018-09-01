@@ -9,10 +9,10 @@ namespace BillingApp.Model.Supplier
 {
     public class SupplierListInModel
     {
-        int ShopID { get; set; }
-        string SearchSupplierName { get; set; }
-        DateTime PurchaseDate { get; set; }
-        decimal purchaseAmount { get; set; }
-        Pagination pagination { get; set; }
+        public int ShopID { get; set; }
+        public string SearchSupplierName { get; set; }
+        public DateTime PurchaseDate { get; set; }
+        public decimal purchaseAmount { get; set; }
+        public Pagination pagination { get; set; }
     }
 }

@@ -12,11 +12,11 @@ namespace BillingApp.Service
 {
     public class SupplierServices : ISupplierServices
     {
-        public SupplierListOutModel GetSupplierList(SupplierListInModel paramIn)
+        public List<SupplierListOutModel> GetSupplierList(SupplierListInModel paramIn)
         {
             if(paramIn != null)
             {
-                List<SupplierMaster> supp_lst = new List<SupplierMaster>();
+                List<SupplierListOutModel> supp_lst = new List<SupplierListOutModel>();
                 SupplierExt supplier_ext = new SupplierExt();
                 supp_lst = supplier_ext.ext_GetSupplierList(paramIn);
             }
